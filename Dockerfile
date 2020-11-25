@@ -7,4 +7,4 @@ RUN composer global require laravel/installer
 WORKDIR /application
 
 RUN cd /application && \
-    composer create-project --prefer-dist laravel/laravel laravel-test "7.*"
+    composer create-project --prefer-dist laravel/laravel laravel-test "8.*"
