@@ -18,7 +18,7 @@ do
                     --build-arg LARAVEL_VERSION=${LARAVEL_VERSION} \
                     .
 
-                # docker push joesantos386/laravel:${TAG}
+                docker push joesantos386/laravel:${TAG}
             done
         done
     done
