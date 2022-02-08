@@ -4,7 +4,7 @@ for PHP_VERSION in "8.0" "8.1"
 do
     for LIBRDKAFKA_VERSION in "v1.8.2"
     do
-        for EXT_RDKAFKA_VERSION in "5.0.2"
+        for EXT_RDKAFKA_VERSION in "5.0.2" "6.0.0"
         do
             for LARAVEL_VERSION in "6" "7" "8"
             do
