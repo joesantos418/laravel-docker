@@ -6,7 +6,7 @@ do
     do
         for EXT_RDKAFKA_VERSION in "5.0.2" "6.0.0"
         do
-            for LARAVEL_VERSION in "6" "7" "8"
+            for LARAVEL_VERSION in "6" "7" "8" "9"
             do
                 TAG=${PHP_VERSION}-${LIBRDKAFKA_VERSION}-${EXT_RDKAFKA_VERSION}-${LARAVEL_VERSION}
 
